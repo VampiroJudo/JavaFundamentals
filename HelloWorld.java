@@ -8,10 +8,16 @@ public class Helloworld
 
         int number = 3;
 
-        String name = "Joe";
-
+        String firstName = "Joe";
+        
+        firstName = "Jimmy";
+        
+        number = 5 + 2;
+        
+        
+        
         System.out.println(number);
-        System.out.println(name);
+        System.out.println(firstName);
 
     }
 }

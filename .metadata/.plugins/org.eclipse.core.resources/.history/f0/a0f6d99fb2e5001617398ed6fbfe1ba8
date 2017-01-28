@@ -13,8 +13,4 @@ public class Printer {
 		System.out.println(text);
 	}
 	
-	public String getModelNumber() {
-		return modelNumber;
-	}
-	
 }

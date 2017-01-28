@@ -13,6 +13,7 @@ public class HelloWorld {
 		yourPrinter.isOn = true;
 		yourPrinter.modelNumber = "FGH";
 		
-		myPrinter.print();
+		System.out.println(myPrinter.modelNumber);
+		System.out.println(yourPrinter.modelNumber);
 	}
 }

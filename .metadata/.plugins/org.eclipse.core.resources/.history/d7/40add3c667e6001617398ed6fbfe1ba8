@@ -12,9 +12,6 @@ public class HelloWorld {
 		
 		myPrinter.print();		
 		
-		Printer yourPrinter = new Printer(false, "YOUR PRINTER");
-		
-		yourPrinter.print();
 		
 //		Printer myPrinter = new Printer();
 //		myPrinter.isOn = false;

@@ -12,7 +12,6 @@ public class Printer {
 	}
 	
 	public void print() {
-		System.out.println(isOn);
 		System.out.println(modelNumber);
 	}
 	

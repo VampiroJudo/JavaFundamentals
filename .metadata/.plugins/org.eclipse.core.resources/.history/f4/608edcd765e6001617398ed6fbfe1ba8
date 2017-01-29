@@ -5,14 +5,7 @@ public class Printer {
 	public boolean isOn;
 	public String modelNumber;
 	
-	public Printer(boolean isOn, String modelNumber) {
-		this.isOn = isOn;
-		this.modelNumber = modelNumber;
-		
-	}
-	
 	public void print() {
-		System.out.println(isOn);
 		System.out.println(modelNumber);
 	}
 	

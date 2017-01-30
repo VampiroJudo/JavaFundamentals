@@ -12,7 +12,7 @@ public class HelloWorld {
 		
 		myPrinter.print();		
 		
-		Printer yourPrinter = new Printer(false, "YOUR PRINTER");
+		Printer yourPrinter = new Printer(false, "MY PRINTER");
 		
 		yourPrinter.print();
 

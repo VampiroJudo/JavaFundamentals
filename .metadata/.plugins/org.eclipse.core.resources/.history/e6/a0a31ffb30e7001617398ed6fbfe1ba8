@@ -10,12 +10,10 @@ public class HelloWorld {
 		
 		Printer myPrinter = new Printer(true, "MY PRINTER");
 		
+		myPrinter. = "NEW VALUE";
+		
 		myPrinter.print();		
 		
-		Printer yourPrinter = new Printer(false, "YOUR PRINTER");
-		
-		yourPrinter.print();
-
 //		Printer yourPrinter = new Printer(false, "YOUR PRINTER");
 //		
 //		yourPrinter.print();

@@ -19,10 +19,9 @@ public class Printer {
 	public void print() {
 		System.out.println(isOn);
 		System.out.println(modelNumber);
-		print("I can call this!!!");
 	}
 	
-	private void print(String text) {
+	public void print(String text) {
 		System.out.println(text);
 	}
 	

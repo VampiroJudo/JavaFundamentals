@@ -3,13 +3,8 @@ package printing;
 public class Printer {
 	
 	public boolean isOn;
-	private String modelNumber;
+	public String modelNumber;
 	
-	
-//	public
-//	private
-//	protected
-//	
 	public Printer(boolean isOn, String modelNumber) {
 		this.isOn = isOn;
 		this.modelNumber = modelNumber;
@@ -19,10 +14,9 @@ public class Printer {
 	public void print() {
 		System.out.println(isOn);
 		System.out.println(modelNumber);
-		print("I can call this!!!");
 	}
 	
-	private void print(String text) {
+	public void print(String text) {
 		System.out.println(text);
 	}
 	

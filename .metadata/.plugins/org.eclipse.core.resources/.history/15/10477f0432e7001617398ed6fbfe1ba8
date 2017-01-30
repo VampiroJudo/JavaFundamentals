@@ -8,7 +8,11 @@ public class HelloWorld {
 		
 // **below I am passing parameters into constructor**
 		
-		Printer myPrinter = new Printer(true, "MY PRINTER");		
+		Printer myPrinter = new Printer(true, "MY PRINTER");
+		
+		
+		myPrinter.modelNumber = "NEW VALUE";
+		
 		
 		myPrinter.print();		
 		

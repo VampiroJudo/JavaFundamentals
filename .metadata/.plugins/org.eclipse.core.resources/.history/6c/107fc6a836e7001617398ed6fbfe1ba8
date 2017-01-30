@@ -19,8 +19,6 @@ public class Printer {
 		
 		if(isOn) {
 			System.out.println(modelNumber + " is on!");
-		} else {
-			System.out.println(modelNumber + " is off!");
 		}
 			
 		

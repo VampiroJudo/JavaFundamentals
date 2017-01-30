@@ -3,7 +3,7 @@ package printing;
 public class Printer {
 	
 	public boolean isOn;
-	private String modelNumber;
+	public String modelNumber;
 	
 	public Printer(boolean isOn, String modelNumber) {
 		this.isOn = isOn;

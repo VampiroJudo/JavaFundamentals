@@ -17,44 +17,35 @@ public class Printer {
 	
 	public void print(int copies) {
 		
-		for( int i = 0; i < copies; i++) {
+		
+		
+		switch(copies) {
+		case  0:
+			
+			break;
+		case 1:
+
 			if(isOn) {
 				System.out.println(modelNumber + " is on!");
 			} else {
 				System.out.println(modelNumber + " is off!");
-		}
+			}
+			break;
 			
-	}
-		
-		
-		
-//		switch(copies) {
-//		case  0:
-//			
-//			break;
-//		case 1:
-//
-//			if(isOn) {
-//				System.out.println(modelNumber + " is on!");
-//			} else {
-//				System.out.println(modelNumber + " is off!");
-//			}
-//			break;
-//			
-//		case 2:
-//
-//			if(isOn) {
-//				System.out.println(modelNumber + " is on!");
-//				System.out.println(modelNumber + " is on!");
-//			} else {
-//				System.out.println(modelNumber + " is off!");
-//				System.out.println(modelNumber + " is off!");
-//			}
-//			break;
-//			default:
-//				System.out.println("Number of copies is not supported");
-//				
-//		}
+		case 2:
+
+			if(isOn) {
+				System.out.println(modelNumber + " is on!");
+				System.out.println(modelNumber + " is on!");
+			} else {
+				System.out.println(modelNumber + " is off!");
+				System.out.println(modelNumber + " is off!");
+			}
+			break;
+			default:
+				System.out.println("Number of copies is not supported");
+				
+		}
 		
 			
 		

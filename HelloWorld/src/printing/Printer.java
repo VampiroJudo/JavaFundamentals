@@ -27,10 +27,15 @@ public class Printer {
 			
 		String textToPrint = modelNumber + onStatus;
 		
-		for( int i = 0; i < copies; i++) {
+//		for( int i = 0; i < copies; i++) {
+			
+		while ( copies > 0 ) {
 			System.out.println(textToPrint);
+			copies--;
 		}
 	}
+	
+
 		
 		public void printColors() {
 			String[] colors = new String[] { "Red", "Blue", "Green", "Yellow", "Orange" };
@@ -38,6 +43,9 @@ public class Printer {
 			for( String currentColor : colors) {
 				System.out.println(currentColor);
 		}
+		
+					
+		
 		
 		
 //		switch(copies) {

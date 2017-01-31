@@ -9,8 +9,6 @@ public class Printer {
 //	public
 //	private
 //	protected
-	
-	
 	public Printer(boolean isOn, String modelNumber) {
 		this.isOn = isOn;
 		this.modelNumber = modelNumber;
@@ -24,6 +22,7 @@ public class Printer {
 				onStatus = "is on!";
 			else 
 				onStatus = "is off!";
+			
 			
 		String textToPrint = modelNumber + onStatus;
 		

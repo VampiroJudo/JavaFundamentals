@@ -25,6 +25,7 @@ public class Printer {
 			else 
 				onStatus = "is off!";
 			
+			
 		String textToPrint = modelNumber + onStatus;
 		
 		for( int i = 0; i < copies; i++) {

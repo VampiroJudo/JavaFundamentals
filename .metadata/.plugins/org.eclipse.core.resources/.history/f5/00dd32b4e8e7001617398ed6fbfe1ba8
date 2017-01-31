@@ -10,8 +10,7 @@ public class HelloWorld {
 		
 		Printer myPrinter = new Printer(true, "MY PRINTER");		
 		
-		myPrinter.print(5);
-		myPrinter.printColors();
+		myPrinter.print(5);		
 		
 		
 		

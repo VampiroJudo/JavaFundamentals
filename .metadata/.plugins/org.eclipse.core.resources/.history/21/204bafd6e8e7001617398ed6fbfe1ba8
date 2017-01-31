@@ -33,7 +33,7 @@ public class Printer {
 	}
 		
 		public void printColors() {
-			String[] colors = new String[] { "Red", "Blue", "Green", "Yellow", "Orange" };
+			String[] colors = new String[] { "Red", "Blue", "Green" };
 			
 			for( String currentColor : colors) {
 				System.out.println(currentColor);

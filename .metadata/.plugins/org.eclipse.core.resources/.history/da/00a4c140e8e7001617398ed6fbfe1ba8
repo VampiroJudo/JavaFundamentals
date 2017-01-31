@@ -21,23 +21,16 @@ public class Printer {
 		
 		String onStatus = "";
 			if(isOn) 
-				onStatus = " is on!";
+				onStatus = "is on!";
 			else 
-				onStatus = " is off!";
+				onStatus = "is off!";
 			
 		String textToPrint = modelNumber + onStatus;
 		
 		for( int i = 0; i < copies; i++) {
 			System.out.println(textToPrint);
 		}
-	}
 		
-		public void printColors() {
-			String[] colors = new String[] { "Red", "Blue", "Green", "Yellow", "Orange" };
-			
-			for( String currentColor : colors) {
-				System.out.println(currentColor);
-		}
 		
 		
 //		switch(copies) {

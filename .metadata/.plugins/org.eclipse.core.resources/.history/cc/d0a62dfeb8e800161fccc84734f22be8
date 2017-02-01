@@ -4,7 +4,6 @@ public class Printer extends Machine {
 	
 	
 	private String modelNumber;
-	private PaperTray paperTray;
 	
 	
 //	public

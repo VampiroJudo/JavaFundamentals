@@ -2,7 +2,7 @@ package printing;
 
 public class Machine {
 	
-	protected boolean isOn;
+	private boolean isOn;
 	
 	public Machine(boolean isOn) {
 		this.isOn = isOn;

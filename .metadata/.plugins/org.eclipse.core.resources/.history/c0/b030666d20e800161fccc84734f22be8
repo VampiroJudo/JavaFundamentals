@@ -1,8 +1,8 @@
 package printing;
 
-public class Printer extends Machine {
+public class Printer extend Machine {
 	
-	
+	public boolean isOn;
 	private String modelNumber;
 	
 	
@@ -13,7 +13,6 @@ public class Printer extends Machine {
 	
 	public Printer(boolean isOn, String modelNumber) {
 		
-		super(isOn);
 		this.modelNumber = modelNumber;
 		
 	}

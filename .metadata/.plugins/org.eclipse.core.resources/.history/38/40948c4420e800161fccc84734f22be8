@@ -2,19 +2,20 @@ package printing;
 
 public class Machine {
 	
-	protected boolean isOn;
+	private boolean isOn;
 	
 	public Machine(boolean isOn) {
 		this.isOn = isOn;
 	}
 	
 	public void turnOn() {
-		this.isOn = true;
+		
+		this.isOn = isOn;
 	}
 	
 	public void turnOff() {
 		
-		this.isOn = false;
+		this.isOn = isOn;
 	}
 
 }

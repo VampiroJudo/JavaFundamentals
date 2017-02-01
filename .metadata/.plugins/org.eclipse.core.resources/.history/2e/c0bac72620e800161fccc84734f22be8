@@ -1,0 +1,11 @@
+package printing;
+
+public class Machine {
+	
+	private boolean isOn;
+	
+	public Machine(boolean isOn) {
+		this.isOn = isOn;
+	}
+
+}

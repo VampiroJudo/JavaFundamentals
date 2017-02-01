@@ -11,9 +11,8 @@ public class HelloWorld {
 		Printer myPrinter = new Printer(true, "MY PRINTER");		
 		
 		myPrinter.print(1);
-	    myPrinter.printColors();
-		myPrinter.turnOff();
-		myPrinter.print(1);
+		myPrinter.printColors();
+		myPrinter.turnOff(1);		
 		
 		
 //		Printer yourPrinter = new Printer(false, "YOUR PRINTER");

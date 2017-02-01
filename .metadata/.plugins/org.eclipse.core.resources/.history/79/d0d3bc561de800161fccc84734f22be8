@@ -41,11 +41,9 @@ public class Printer {
 			String[] colors = new String[] { "Red", "Blue", "Green", "Yellow", "Orange" };
 			
 			for( String currentColor : colors) {
-
-//Break Statement
+				
 //				if("Green".equals(currentColor))
 //					break;
-//Continue Statement
 				if("Green".equals(currentColor))
 					continue;
 				

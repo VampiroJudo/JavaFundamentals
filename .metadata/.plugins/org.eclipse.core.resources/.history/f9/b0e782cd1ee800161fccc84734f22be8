@@ -18,8 +18,7 @@ public class Printer {
 	}
 	
 	public void print(int copies) {
-	
-//If/Else Statement Example
+		
 		String onStatus = "";
 			if(isOn) 
 				onStatus = " is on!";
@@ -27,10 +26,9 @@ public class Printer {
 				onStatus = " is off!";
 			
 		String textToPrint = modelNumber + onStatus;
-// For loop example		
+		
 //		for( int i = 0; i < copies; i++) {
-
-//While loop example
+			
 		while ( copies > 0 ) {
 			System.out.println(textToPrint);
 			copies--;
@@ -57,7 +55,7 @@ public class Printer {
 					
 		
 		
-//Switch Statement Example		
+		
 //		switch(copies) {
 //		case  0:
 //			

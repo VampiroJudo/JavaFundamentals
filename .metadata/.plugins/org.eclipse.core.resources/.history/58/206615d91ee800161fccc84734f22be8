@@ -18,8 +18,7 @@ public class Printer {
 	}
 	
 	public void print(int copies) {
-	
-//If/Else Statement Example
+		
 		String onStatus = "";
 			if(isOn) 
 				onStatus = " is on!";
@@ -57,7 +56,7 @@ public class Printer {
 					
 		
 		
-//Switch Statement Example		
+		
 //		switch(copies) {
 //		case  0:
 //			

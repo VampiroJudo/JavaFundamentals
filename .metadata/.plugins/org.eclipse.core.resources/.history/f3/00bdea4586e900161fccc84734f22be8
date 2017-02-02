@@ -1,16 +1,16 @@
 package printing;
 
-public class Printer implements iMAchine {
+public class Printer extends Machine {
 	
 	
 	private String modelNumber;
 	private PaperTray paperTray = new PaperTray();
-	private Machine machine;
+	
 	
 	
 	public Printer(boolean isOn, String modelNumber) {
-
-		machine = new Machine (isOn);
+		
+		super(isOn);
 		this.modelNumber = modelNumber;
 		
 	}
@@ -18,14 +18,15 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOn() {
 	
-		mahine.turnOn();
+		System.out.println("Warming up print engine");
+		super.turnOn();
 	}
 	
 	public void print(int copies) {
 	
 //If/Else Statement Example
 		String onStatus = "";
-			if(isOn() ) 
+			if(isOn) 
 				onStatus = " is on!";
 			else 
 				onStatus = " is off!";
@@ -114,13 +115,6 @@ public class Printer implements iMAchine {
 	public void loadPaper( int count) {
 
 		paperTray.addPaper(count);
-	}
-
-	@Override
-	public void turnOff() {
-		
-		machine.turnOff();
-
 	}	
 	
 }

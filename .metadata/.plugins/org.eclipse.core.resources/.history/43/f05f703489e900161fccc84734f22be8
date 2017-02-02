@@ -25,7 +25,7 @@ public class Printer implements iMAchine {
 	
 //If/Else Statement Example
 		String onStatus = "";
-			if(isOn() ) 
+			if(isOn()) 
 				onStatus = " is on!";
 			else 
 				onStatus = " is off!";

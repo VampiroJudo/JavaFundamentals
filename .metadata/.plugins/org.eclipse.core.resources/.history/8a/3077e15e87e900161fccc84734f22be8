@@ -1,6 +1,5 @@
 package greetings.hello;
 
-import printing.iMAchine;
 import printing.Machine;
 import printing.Printer;
 
@@ -9,7 +8,7 @@ public class HelloWorld {
 		
 		
 		
-		IMAchine machine = new Printer(true, "MY PRINTER");		
+	IMAchine machine = new Printer(true, "MY PRINTER");		
 
 
 		machine.turnOn();

@@ -1,6 +1,6 @@
 package printing;
 
-public class Machine implements IMAchine {
+public class Machine implements IMAchine{
 	
 	protected boolean isOn;
 	

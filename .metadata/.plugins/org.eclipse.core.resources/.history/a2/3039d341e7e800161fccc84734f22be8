@@ -32,7 +32,6 @@ public class Printer extends Machine {
 		while ( copies > 0 && !paperTray.isEmpty() ) {
 			System.out.println(textToPrint);
 			copies--;
-			paperTray.usePage();
 		}
 		
 		if(paperTray.isEmpty())
@@ -104,10 +103,9 @@ public class Printer extends Machine {
 		return modelNumber;
 	}
 
-
-	public void loadPaper( int count) {
+	public void loadPaper(count) {
 
 		paperTray.addPaper(count);
-	}	
+	}
 	
 }

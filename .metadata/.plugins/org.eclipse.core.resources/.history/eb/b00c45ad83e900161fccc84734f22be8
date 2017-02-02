@@ -1,6 +1,5 @@
 package greetings.hello;
 
-import printing.Machine;
 import printing.Printer;
 
 public class HelloWorld {
@@ -10,14 +9,9 @@ public class HelloWorld {
 // **below I am passing parameters into constructor**
 		
 		Printer myPrinter = new Printer(true, "MY PRINTER");		
-
-//		Machine machine = new Printer(true, "MY PRINTER");
-		Machine machine = new Machine(false);
 		
-		machine.turnOn();
-		
-//		myPrinter.loadPaper(3);
-//		myPrinter.print(4);
+		myPrinter.loadPaper(3);
+		myPrinter.print(4);
 //	    myPrinter.printColors();
 //		myPrinter.turnOff();
 //		myPrinter.print(1);

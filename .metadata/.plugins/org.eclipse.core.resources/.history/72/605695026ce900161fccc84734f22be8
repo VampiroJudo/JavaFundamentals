@@ -29,14 +29,14 @@ public class Printer extends Machine {
 //		for( int i = 0; i < copies; i++) {
 
 //While loop example
-		while ( copies > 0 && !paperTray.isEmpty() ) {
+		while ( copies >  && !paperTray.isEmpty() ) {
 			System.out.println(textToPrint);
 			copies--;
 //			paperTray.usePage();
 		}
 		
 		if(paperTray.isEmpty())
-			System.out.println("Load more paper!");
+			System.out.println("Load more paper");
 	}
 	
 

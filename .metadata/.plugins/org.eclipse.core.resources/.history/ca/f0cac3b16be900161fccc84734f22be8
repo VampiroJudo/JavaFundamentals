@@ -35,8 +35,8 @@ public class Printer extends Machine {
 //			paperTray.usePage();
 		}
 		
-		if(paperTray.isEmpty())
-			System.out.println("Load more paper!");
+		if(!paperTray.isEmpty())
+			System.out.println("Load more paper");
 	}
 	
 

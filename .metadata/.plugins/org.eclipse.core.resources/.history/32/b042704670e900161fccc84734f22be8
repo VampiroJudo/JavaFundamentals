@@ -9,8 +9,8 @@ public class HelloWorld {
 // **below I am passing parameters into constructor**
 		
 		Printer myPrinter = new Printer(true, "MY PRINTER");		
-		
-		myPrinter.loadPaper(3);
+//		
+//		myPrinter.loadPaper(3);
 		myPrinter.print(1);
 //	    myPrinter.printColors();
 //		myPrinter.turnOff();

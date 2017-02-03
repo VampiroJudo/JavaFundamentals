@@ -20,7 +20,7 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOn() {
 	
-		System.out.println("Warming up printer.");
+		System.out.println("Warming up printer.")
 		machine.turnOn();
 		
 	}

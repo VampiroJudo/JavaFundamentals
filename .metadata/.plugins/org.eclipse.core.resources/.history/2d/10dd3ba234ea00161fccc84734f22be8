@@ -1,6 +1,6 @@
 package printing;
 
-public class Machine implements iMAchine {
+public class Machine implements IMAchine {
 	
 	protected boolean isOn;
 	
@@ -16,12 +16,6 @@ public class Machine implements iMAchine {
 	public void turnOff() {
 		
 		this.isOn = false;
-	}
-
-	@Override
-	public boolean isOn() {
-
-		return isOn;
 	}
 
 }

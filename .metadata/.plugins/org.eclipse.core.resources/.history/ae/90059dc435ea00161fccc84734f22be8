@@ -20,8 +20,8 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOn() {
 	
-		
-		machine.turnOn();
+		System.out.println("Warming up print engine.");
+		isOn = true;
 		
 	}
 	
@@ -29,7 +29,7 @@ public class Printer implements iMAchine {
 	
 //If/Else Statement Example
 		String onStatus = "";
-			if(machine.isOn() ) 
+			if(isOn) 
 				onStatus = " is on!";
 			else 
 				onStatus = " is off!";
@@ -123,14 +123,8 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOff() {
 		
-		machine.turnOff();
+		isOn = false;
 
-	}
-
-	@Override
-	public boolean isOn() {
-		
-		return machine.isOn;
 	}	
 	
 }

@@ -9,7 +9,7 @@ public class HelloWorld {
 		
 		
 		
-		iMAchine machine = new Printer(true, "MY PRINTER");		
+		IMAchine machine = new Printer(true, "MY PRINTER");		
 
 
 		machine.turnOn();

@@ -18,10 +18,4 @@ public class Machine implements iMAchine {
 		this.isOn = false;
 	}
 
-	@Override
-	public boolean isOn() {
-
-		return isOn;
-	}
-
 }

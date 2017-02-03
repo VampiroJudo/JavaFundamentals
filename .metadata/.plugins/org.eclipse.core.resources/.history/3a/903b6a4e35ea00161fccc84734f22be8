@@ -5,14 +5,13 @@ public class Printer implements iMAchine {
 	
 	private String modelNumber;
 	private PaperTray paperTray = new PaperTray();
-	private Machine machine; 
-	
-
+	 
+	private boolean isOn;
 	
 	
 	public Printer(boolean isOn, String modelNumber) {
-		
-		machine = new Machine(isOn);
+
+		this.isOn = isOn;
 		this.modelNumber = modelNumber;
 		
 	}
@@ -20,8 +19,8 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOn() {
 	
-		
-		machine.turnOn();
+		System.out.println("Warming up print engine.");
+		isOn = true;
 		
 	}
 	
@@ -29,7 +28,7 @@ public class Printer implements iMAchine {
 	
 //If/Else Statement Example
 		String onStatus = "";
-			if(machine.isOn() ) 
+			if(isOn() ) 
 				onStatus = " is on!";
 			else 
 				onStatus = " is off!";
@@ -123,14 +122,8 @@ public class Printer implements iMAchine {
 	@Override
 	public void turnOff() {
 		
-		machine.turnOff();
+		isOn = false;
 
-	}
-
-	@Override
-	public boolean isOn() {
-		
-		return machine.isOn;
 	}	
 	
 }

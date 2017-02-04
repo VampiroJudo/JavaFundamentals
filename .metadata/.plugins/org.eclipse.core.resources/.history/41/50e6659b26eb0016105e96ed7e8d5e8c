@@ -12,29 +12,20 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());		
 
-		try {
-			
-			printer.print(-1);
-		}
-		
-		catch (IllegalArgumentException exception) {
-			
-			System.out.println(exception.getMessage());
-		}
-	
-	
-	
-	
-	
-	
 //		printer.printUsingCartridge(new ColorCartridge(), "Hi!");
+
+		printer.print(1);
 //		myPrinter.loadPaper(3);
 //		myPrinter.print(4);
 //	    myPrinter.printColors();
 //		myPrinter.turnOff();
 //		myPrinter.print(1);
+	
+		
 //		Printer yourPrinter = new Printer(false, "YOUR PRINTER");
+//		
 //		yourPrinter.print();
+		
 //		Printer myPrinter = new Printer();
 //		myPrinter.isOn = false;
 //		myPrinter.modelNumber = "ABCD";

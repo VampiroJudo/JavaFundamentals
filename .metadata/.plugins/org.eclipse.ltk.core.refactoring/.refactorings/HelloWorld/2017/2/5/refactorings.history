@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void checkCopies(int copies)&apos; from &apos;printing.Printer.print()&apos; to &apos;printing.Printer&apos;&#x0A;- Original project: &apos;HelloWorld&apos;&#x0A;- Method name: &apos;checkCopies&apos;&#x0A;- Destination type: &apos;printing.Printer&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;checkCopies&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;printing{Printer.java" name="checkCopies" replace="false" selection="882 91" stamp="1486246447687" version="1.0" visibility="2"/>
+</session>

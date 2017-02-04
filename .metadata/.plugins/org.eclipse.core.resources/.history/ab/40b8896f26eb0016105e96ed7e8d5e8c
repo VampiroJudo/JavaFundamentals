@@ -8,7 +8,7 @@ public class Printer<T> implements iMAchine {
 	private String modelNumber;
 	private PaperTray paperTray = new PaperTray();
 	private Machine machine; 
-    private T cartridge;
+	private T cartridge;
 	
 
 	
@@ -40,7 +40,8 @@ public class Printer<T> implements iMAchine {
 		
 //		System.out.println(cartridge.getFillPercentage());
 		
-		checkCopies(copies);
+		if(copies < 0 )
+			throw new IllegalArgumentException();
 		
 		String onStatus = "";
 			if(machine.isOn() ) 
@@ -61,11 +62,6 @@ public class Printer<T> implements iMAchine {
 		
 		if(paperTray.isEmpty())
 			System.out.println("Load more paper!");
-	}
-
-	private void checkCopies(int copies) {
-		if(copies < 0 )
-			throw new IllegalArgumentException("Can't print less than 0 copies");
 	}
 	
 

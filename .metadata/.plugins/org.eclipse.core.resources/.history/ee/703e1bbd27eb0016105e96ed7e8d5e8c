@@ -139,11 +139,10 @@ public class Printer<T> implements iMAchine {
 		paperTray.addPaper(count);
 	}
 
-
+	@Override
 	public void turnOff() {
 		
 		machine.turnOff();
-		System.out.println("Machine is off!");
 
 	}
 

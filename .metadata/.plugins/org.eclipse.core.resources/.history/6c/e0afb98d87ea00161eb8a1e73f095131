@@ -7,9 +7,4 @@ public class ColorCartridge implements iCartridge {
 		
 		return "Color!";
 	}
-	
-	@Override
-	public String getFillPercentage() {
-		return "97%";
-	}
 }

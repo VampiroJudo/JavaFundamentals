@@ -12,7 +12,7 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());		
 
-//		printer.printUsingCartridge(new ColorCartridge(), "Hi!");
+//	printer.printUsingCartridge(new ColorCartridge(), "Hi!");
 
 		printer.print(1);
 //		myPrinter.loadPaper(3);

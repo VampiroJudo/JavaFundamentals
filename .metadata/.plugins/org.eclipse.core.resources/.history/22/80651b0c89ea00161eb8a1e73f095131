@@ -1,8 +1,6 @@
 package printing;
 
 public class Printer<T> implements iMAchine {
-//Bounded example
-//public class Printer<T> implements iMAchine
 	
 	
 	private String modelNumber;

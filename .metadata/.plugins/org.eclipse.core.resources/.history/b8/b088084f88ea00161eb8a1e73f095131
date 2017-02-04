@@ -8,7 +8,7 @@ public class BWCartridge {
 		return "BW!";
 	}
 	
-    @Override
+	@Override
 	public String getFillPercentage() {
 		return "50%";
 	}

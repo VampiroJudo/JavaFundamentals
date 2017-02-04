@@ -1,15 +1,15 @@
 package printing;
 
-public class BWCartridge {
+public class ColorCartridge implements iCartridge {
 	
 	@Override
 	public String toString() {
 		
-		return "BW!";
+		return "Color!";
 	}
 	
-    @Override
+	@Override
 	public String getFillPercentage() {
-		return "50%";
+		return "50";
 	}
 }

@@ -10,7 +10,7 @@ public class HelloWorld {
 		
 		
 		
-	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());		
+	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge);		
 
 
 		

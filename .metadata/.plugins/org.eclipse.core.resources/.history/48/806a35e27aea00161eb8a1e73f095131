@@ -15,7 +15,6 @@ public class Printer<T> implements iMAchine {
 		
 		machine = new Machine(isOn);
 		this.modelNumber = modelNumber;
-		this.cartridge = cartridge;
 		
 	}
 	
@@ -28,9 +27,8 @@ public class Printer<T> implements iMAchine {
 	}
 	
 	public void print(int copies) {
-		
-		System.out.println(cartridge.soString);
-		
+	
+//If/Else Statement Example
 		String onStatus = "";
 			if(machine.isOn() ) 
 				onStatus = " is on!";

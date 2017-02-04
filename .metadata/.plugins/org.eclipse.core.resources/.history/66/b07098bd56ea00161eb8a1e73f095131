@@ -3,16 +3,16 @@ package greetings.hello;
 import printing.iMAchine;
 import printing.Machine;
 import printing.Printer;
-import printing.ColorCartridge;
 
 public class HelloWorld {
 	public static void main(String[] args) {
 		
 		
 		
-	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());		
+	Printer<T> = new Printer(true, "MY PRINTER");		
 
 
+		machine.turnOn();
 		
 //		myPrinter.loadPaper(3);
 //		myPrinter.print(4);

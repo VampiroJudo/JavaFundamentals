@@ -16,6 +16,12 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());	
 	
+	File file = new File("C:\\test.txt");
+	try {
+		file.createNewFile();
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
 	
 	
 

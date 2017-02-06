@@ -1,8 +1,5 @@
 package printing;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Printer<T> implements iMAchine {
 //Bounded example
 //public class Printer<T implements iCartridge> implements iMAchine
@@ -12,7 +9,7 @@ public class Printer<T> implements iMAchine {
 	private PaperTray paperTray = new PaperTray();
 	private Machine machine; 
     private T cartridge;
-    private List<Page> pages = new ArrayList<Page>();
+    private List<Page> = new ArrayList<Page>();
 	
 
 	
@@ -58,21 +55,13 @@ public class Printer<T> implements iMAchine {
 
 //While loop example
 		while ( copies > 0 && !paperTray.isEmpty() ) {
-			//System.out.println(textToPrint);
-			pages.add(new Page(textToPrint));
- 			
+			System.out.println(textToPrint);
 			copies--;
 			paperTray.usePage();
 		}
 		
 		if(paperTray.isEmpty())
 			System.out.println("Load more paper!");
-	}
-	
-	private void outputPages() {
-		for(Page currentPage : pages) {
-			System.out.println(currentPage.getText());
-		}
 	}
 
 	private void checkCopies(int copies) {

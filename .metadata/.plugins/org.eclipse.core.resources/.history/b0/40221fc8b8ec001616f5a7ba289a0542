@@ -1,6 +1,5 @@
 package printing;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Printer<T> implements iMAchine {
@@ -67,12 +66,6 @@ public class Printer<T> implements iMAchine {
 		
 		if(paperTray.isEmpty())
 			System.out.println("Load more paper!");
-	}
-	
-	private void outputPages() {
-		for(Page currentPage : pages) {
-			System.out.println(currentPage.getText());
-		}
 	}
 
 	private void checkCopies(int copies) {

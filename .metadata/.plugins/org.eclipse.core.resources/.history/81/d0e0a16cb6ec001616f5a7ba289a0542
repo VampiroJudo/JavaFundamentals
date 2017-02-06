@@ -7,9 +7,5 @@ public class Page {
 	public Page(String text) {
 		printedText = text;
 	}
-	
-	public String getText() {
-		return printedText;
-	}
 
 }

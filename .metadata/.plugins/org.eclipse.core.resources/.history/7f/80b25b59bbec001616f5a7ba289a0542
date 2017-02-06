@@ -76,7 +76,7 @@ public class Printer<T> implements iMAchine {
 			//System.out.println("Load more paper!");
 	}
 	
-	public void outputPage(int pageNumber) {
+	public outputPage(int pageNumber) {
 		System.out.println(pagesMap.get(pageNumber).getText());
 	}
 	

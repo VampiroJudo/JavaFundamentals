@@ -17,9 +17,9 @@ public class HelloWorld {
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());	
 	
 	printer.loadPaper(10);
-	printer.print(5);
+	printer.print(10);
 	
-	printer.outputPage(3);
+	printer.outputPages();
 	
 	
 	

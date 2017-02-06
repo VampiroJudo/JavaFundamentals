@@ -16,29 +16,23 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());	
 	
-	printer.loadPaper(10);
-	printer.print(5);
-	
-	printer.outputPage(3);
 	
 	
+
+		try {
+			
+			printer.print(-1);
+		}
+		
+		catch (IllegalArgumentException exception) {
+			
+			System.out.println(exception.getMessage());
+			return;
+		}
+		finally {
+			printer.turnOff();
+		}
 	
-//	Try and Catch example
-//
-//		try {
-//			
-//			printer.print(-1);
-//		}
-//		
-//		catch (IllegalArgumentException exception) {
-//			
-//			System.out.println(exception.getMessage());
-//			return;
-//		}
-//		finally {
-//			printer.turnOff();
-//		}
-//	
 	
 	
 	

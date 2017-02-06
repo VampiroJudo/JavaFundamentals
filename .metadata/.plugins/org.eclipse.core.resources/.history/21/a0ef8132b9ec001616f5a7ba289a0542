@@ -19,8 +19,6 @@ public class HelloWorld {
 	printer.loadPaper(10);
 	printer.print(5);
 	
-	printer.outputPage(3);
-	
 	
 	
 //	Try and Catch example

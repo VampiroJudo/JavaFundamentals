@@ -1,7 +1,6 @@
 package printing;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -15,7 +14,7 @@ public class Printer<T> implements iMAchine {
 	private Machine machine; 
     private T cartridge;
     private List<Page> pages = new ArrayList<Page>();
-    private Map<Integer, Page> pagesMap = new HashMap<Integer, Page>();
+    private Map<Integer, Page> pagesMap = new HashMap<integer, Page>();
 	
 
 	
@@ -56,18 +55,15 @@ public class Printer<T> implements iMAchine {
 				onStatus = " is off!";
 			
 		String textToPrint = modelNumber + onStatus;
-		int pageNumber = 1;
 // For loop example		
 //		for( int i = 0; i < copies; i++) {
 
 //While loop example
 		while ( copies > 0 ) {
 			//System.out.println(textToPrint);
-			//pages.add(new Page(textToPrint));
- 			pagesMap.put(pageNumber, new Page(textToPrint + ":" + pageNumber));
-			
+			pages.add(new Page(textToPrint));
+ 			
 			copies--;
- 			pageNumber++;
 			paperTray.usePage();
 		}
 		
@@ -76,16 +72,11 @@ public class Printer<T> implements iMAchine {
 			//System.out.println("Load more paper!");
 	}
 	
-	public void outputPage(int pageNumber) {
-		System.out.println(pagesMap.get(pageNumber).getText());
+	public void outputPages() {
+		for(Page currentPage : pages) {
+			System.out.println(currentPage.getText());
+		}
 	}
-	
-// Method for List Collection	
-//	public void outputPages() {
-//		for(Page currentPage : pages) {
-//			System.out.println(currentPage.getText());
-//		}
-//	}
 
 	private void checkCopies(int copies) {
 		if(copies < 0 )

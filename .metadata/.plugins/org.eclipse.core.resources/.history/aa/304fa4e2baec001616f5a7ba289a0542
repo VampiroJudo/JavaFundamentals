@@ -64,10 +64,9 @@ public class Printer<T> implements iMAchine {
 		while ( copies > 0 ) {
 			//System.out.println(textToPrint);
 			//pages.add(new Page(textToPrint));
- 			pagesMap.put(pageNumber, new Page(textToPrint + ":" + pageNumber));
+ 			pagesMap.put(key, value)
 			
 			copies--;
- 			pageNumber++;
 			paperTray.usePage();
 		}
 		
@@ -76,16 +75,11 @@ public class Printer<T> implements iMAchine {
 			//System.out.println("Load more paper!");
 	}
 	
-	public void outputPage(int pageNumber) {
-		System.out.println(pagesMap.get(pageNumber).getText());
+	public void outputPages() {
+		for(Page currentPage : pages) {
+			System.out.println(currentPage.getText());
+		}
 	}
-	
-// Method for List Collection	
-//	public void outputPages() {
-//		for(Page currentPage : pages) {
-//			System.out.println(currentPage.getText());
-//		}
-//	}
 
 	private void checkCopies(int copies) {
 		if(copies < 0 )

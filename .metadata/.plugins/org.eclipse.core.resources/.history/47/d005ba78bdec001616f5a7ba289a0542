@@ -8,38 +8,31 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
 import printing.ColorCartridge;
 
 public class HelloWorld {
-	private static final int HashMap = 0;
-
 	public static void main(String[] args)  {
 		
 		
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());	
 
-	
-	
-	
 
-// Queue Collection example
-//	Queue<String> myQueue = new LinkedList<String>();
+//// Queue Collection example
+////	Queue<String> myQueue = new LinkedList<String>();
+////	
+////	myQueue.offer("a");
+////	myQueue.offer("b");
+////	myQueue.offer("c");
+////	
+////	while(myQueue.peek() != null) {
+////		System.out.println(myQueue.poll());
+////	}
+////	
 //	
-//	myQueue.offer("a");
-//	myQueue.offer("b");
-//	myQueue.offer("c");
-//	
-//	while(myQueue.peek() != null) {
-//		System.out.println(myQueue.poll());
-//	}
-//	
-	
 	
 	
 	

@@ -24,6 +24,8 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", new ColorCartridge());	
 
+// Combining Collections example
+	Map<String, List<Integer>> testScores = HashMap<String, List<Integer>>():	
 	
 	
 	

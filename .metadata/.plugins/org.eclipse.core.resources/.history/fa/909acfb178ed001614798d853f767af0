@@ -52,7 +52,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 			onStatus = " is off!";
 
 		String textToPrint = modelNumber + onStatus;
-		textToPrint += "|||" +cartridge.printColor() + "|||";
 		int pageNumber = 1;
 		// For loop example
 		// for( int i = 0; i < copies; i++) {

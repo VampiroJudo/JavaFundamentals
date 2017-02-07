@@ -23,16 +23,7 @@ public class HelloWorld {
 		
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.RED);
-
-// Iterating through enumerator values
-//	for(ColorCartridge cartridge : ColorCartridge.values()) {
-//		System.out.println(cartridge.printColor());
-//	}
-	
-	
-	
 // Enumeration Example
-	
 //	switch(printer.getCartridge()) {
 //	
 //	case BLUE:

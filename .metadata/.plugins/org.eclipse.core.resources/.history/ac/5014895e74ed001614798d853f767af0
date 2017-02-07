@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Printer<T extends iCartridge> implements iMAchine {
+public class Printer<T extends ICartridge> implements iMAchine {
 	// Bounded example
 	// public class Printer<T implements iCartridge> implements iMAchine
 
@@ -144,10 +144,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 
 	public String getModelNumber() {
 		return modelNumber;
-	}
-	
-	public T getCartridge() {
-		return cartridge;
 	}
 
 	public void loadPaper(int count) {

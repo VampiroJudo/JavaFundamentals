@@ -1,17 +1,17 @@
 package greetings.hello;
 
-//import printing.iMAchine;
-//import printing.Machine;
+import printing.iMAchine;
+import printing.Machine;
 import printing.Printer;
 
-//import java.io.File;
-//import java.io.IOException;
-//import java.util.HashSet;
-//import java.util.LinkedList;
-//import java.util.List;
-//import java.util.Map;
-//import java.util.Queue;
-//import java.util.Set;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Set;
 
 import printing.ColorCartridge;
 
@@ -22,7 +22,7 @@ public class HelloWorld {
 		
 		
 		
-	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.BLUE);
+	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.BLUE());
 
 	switch(printer.getCartridge()) {
 	

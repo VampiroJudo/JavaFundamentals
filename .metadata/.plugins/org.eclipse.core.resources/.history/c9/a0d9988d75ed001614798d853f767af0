@@ -145,10 +145,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 	public String getModelNumber() {
 		return modelNumber;
 	}
-	
-	public T getCartridge() {
-		return cartridge;
-	}
 
 	public void loadPaper(int count) {
 

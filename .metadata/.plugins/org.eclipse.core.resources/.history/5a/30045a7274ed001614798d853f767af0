@@ -1,10 +1,6 @@
 package printing;
 
-public enum ColorCartridge implements iCartridge {
-	
-	RED,
-	BLUE,
-	GREEN;
+public class ColorCartridge implements iCartridge {
 	
 	@Override
 	public String toString() {

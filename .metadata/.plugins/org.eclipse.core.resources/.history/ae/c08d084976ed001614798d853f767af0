@@ -3,6 +3,7 @@ package greetings.hello;
 //import printing.iMAchine;
 //import printing.Machine;
 import printing.Printer;
+import java.util.ArrayList;
 
 //import java.io.File;
 //import java.io.IOException;
@@ -22,7 +23,7 @@ public class HelloWorld {
 		
 		
 		
-	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.BLUE);
+	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.BLUE());
 
 	switch(printer.getCartridge()) {
 	

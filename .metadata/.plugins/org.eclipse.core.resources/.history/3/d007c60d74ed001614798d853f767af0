@@ -1,7 +1,7 @@
 package greetings.hello;
 
-//import printing.iMAchine;
-//import printing.Machine;
+import printing.iMAchine;
+import printing.Machine;
 import printing.Printer;
 
 //import java.io.File;
@@ -16,7 +16,7 @@ import printing.Printer;
 import printing.ColorCartridge;
 
 public class HelloWorld {
-
+	private static final int HashMap = 0;
 
 	public static void main(String[] args)  {
 		

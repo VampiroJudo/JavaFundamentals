@@ -16,7 +16,7 @@ import printing.Printer;
 import printing.ColorCartridge;
 
 public class HelloWorld {
-
+	private static final int HashMap = 0;
 
 	public static void main(String[] args)  {
 		

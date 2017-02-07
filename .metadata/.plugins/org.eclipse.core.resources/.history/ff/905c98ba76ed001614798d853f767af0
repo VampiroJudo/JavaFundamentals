@@ -22,7 +22,7 @@ public class HelloWorld {
 		
 		
 		
-	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.RED);
+	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.BLUE);
 
 	switch(printer.getCartridge()) {
 	
@@ -36,10 +36,6 @@ public class HelloWorld {
 		
 	case GREEN:
 		System.out.println("Green");
-		break;
-		
-	case YELLOW:
-		System.out.println("Yellow");
 		break;
 	}
 	

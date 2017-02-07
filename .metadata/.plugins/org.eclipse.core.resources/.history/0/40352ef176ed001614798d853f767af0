@@ -37,10 +37,6 @@ public class HelloWorld {
 	case GREEN:
 		System.out.println("Green");
 		break;
-		
-	case YELLOW:
-		System.out.println("Yellow");
-		break;
 	}
 	
 	

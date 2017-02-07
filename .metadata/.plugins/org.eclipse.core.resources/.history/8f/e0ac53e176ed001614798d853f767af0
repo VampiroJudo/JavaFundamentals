@@ -4,8 +4,7 @@ public enum ColorCartridge implements iCartridge {
 	
 	RED,
 	BLUE,
-	GREEN,
-	YELLOW;
+	GREEN;
 	
 	@Override
 	public String toString() {

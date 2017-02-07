@@ -23,9 +23,4 @@ public enum ColorCartridge implements iCartridge {
 	public String getFillPercentage() {
 		return "97%";
 	}
-
-	@Override
-	public String printColor() {
-		return colorText;
-	}
 }

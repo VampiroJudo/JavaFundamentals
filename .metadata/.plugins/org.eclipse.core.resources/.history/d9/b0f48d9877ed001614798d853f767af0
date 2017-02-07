@@ -23,25 +23,25 @@ public class HelloWorld {
 		
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.RED);
-// Enumeration Example
-//	switch(printer.getCartridge()) {
-//	
-//	case BLUE:
-//		System.out.println("Blue");
-//		break;
-//		
-//	case RED:
-//		System.out.println("Red");
-//		break;
-//		
-//	case GREEN:
-//		System.out.println("Green");
-//		break;
-//		
-//	case YELLOW:
-//		System.out.println("Yellow");
-//		break;
-//	}
+
+	switch(printer.getCartridge()) {
+	
+	case BLUE:
+		System.out.println("Blue");
+		break;
+		
+	case RED:
+		System.out.println("Red");
+		break;
+		
+	case GREEN:
+		System.out.println("Green");
+		break;
+		
+	case YELLOW:
+		System.out.println("Yellow");
+		break;
+	}
 	
 	
 

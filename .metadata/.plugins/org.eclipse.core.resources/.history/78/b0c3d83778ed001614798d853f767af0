@@ -2,7 +2,7 @@ package printing;
 
 public enum ColorCartridge implements iCartridge {
 	
-	RED("Red"),
+	RED("Red");
 	BLUE("Blue"),
 	GREEN("Green"),
 	YELLOW("Yellow");
@@ -22,10 +22,5 @@ public enum ColorCartridge implements iCartridge {
 	@Override
 	public String getFillPercentage() {
 		return "97%";
-	}
-
-	@Override
-	public String printColor() {
-		return colorText;
 	}
 }

@@ -81,15 +81,10 @@ public class Printer<T extends iCartridge> implements iMAchine {
 	private String getTextFromFile() {
 		FileReader reader = null;
 		BufferedReader bReader = null;
-		CapitalizationReader capReader = null;
-		
-		
-		
 		String allText = "";
 		try {
 			reader = new FileReader("C:\\temp\\test.txt");
 			bReader = new BufferedReader(reader);
-			capReader = new CapitalizationReader(bReader);
 			
 			String line;
 			while(( line = bReader.readLine() ) !=null){

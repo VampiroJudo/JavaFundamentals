@@ -89,7 +89,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 		try {
 			reader = new FileReader("C:\\temp\\test.txt");
 			bReader = new BufferedReader(reader);
-			capReader = new CapitalizationReader(bReader);
 			
 			String line;
 			while(( line = bReader.readLine() ) !=null){

@@ -1,0 +1,12 @@
+package printing;
+
+import java.io.BufferedReader;
+import java.io.Reader;
+
+public class CapitalizationReader extends BufferedReader {
+	
+	public CapitalizationReader(Reader in) {
+		super(in);
+	}
+
+}

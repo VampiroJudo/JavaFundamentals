@@ -1,0 +1,11 @@
+package printing;
+
+import javax.print.DocFlavor.READER;
+
+public class CapitalizationReader extends BufferedReader {
+	
+	public CapitalizationReader(Reader in) {
+		super(in);
+	}
+
+}

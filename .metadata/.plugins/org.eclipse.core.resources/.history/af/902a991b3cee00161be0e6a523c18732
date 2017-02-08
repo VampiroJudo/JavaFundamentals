@@ -3,7 +3,6 @@ package printing;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -93,7 +92,7 @@ public class Printer<T extends iCartridge> implements iMAchine {
 			capReader = new CapitalizationReader(bReader);
 			
 			String line;
-			while(( line = capReader.readLine() ) !=null){
+			while(( line = bReader.readLine() ) !=null){
 				allText += line + "\n";
 			}
 			return allText;
@@ -105,9 +104,9 @@ public class Printer<T extends iCartridge> implements iMAchine {
 		}
 		
  		finally {
-			if(capReader != null) 
+			if(bReader != null) 
 				try {
-					capReader.close();
+					reader.close();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}

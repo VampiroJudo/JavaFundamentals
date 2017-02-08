@@ -38,12 +38,6 @@ public class HelloWorld {
 		e.printStackTrace();
 	}
 	
-	//Deleting a file
-	try {
-		Files.deleteIfExists(path);
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
 	
 	
 	

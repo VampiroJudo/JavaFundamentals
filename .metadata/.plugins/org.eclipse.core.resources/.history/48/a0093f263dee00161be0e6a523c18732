@@ -45,14 +45,6 @@ public class HelloWorld {
 		e.printStackTrace();
 	}
 	
-	// Moving a file
-	
-	try {
-		Files.move(path, Paths.get("C:\\temp\\movesFile.txt"));
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
-	
 	
 	
 	

@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -111,21 +110,7 @@ public class Printer<T extends iCartridge> implements iMAchine {
 	}
 
 	public void outputPage(int pageNumber) {
-		
-		PrintWriter writer = null;
-		
-		try {
-			writer = new PrintWriter(new FileWriter ("C:\\temp\\outputpage.text"));
-			
-			writer.println(pagesMap.get(pageNumber).getText());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		finally {
-			if (writer != null)
-				writer.close();
-		}
-		//System.out.println(pagesMap.get(pageNumber).getText());
+		System.out.println(pagesMap.get(pageNumber).getText());
 	}
 
 	// Method for List Collection

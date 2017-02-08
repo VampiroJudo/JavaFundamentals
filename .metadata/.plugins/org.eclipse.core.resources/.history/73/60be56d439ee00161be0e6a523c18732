@@ -125,6 +125,10 @@ public class Printer<T extends iCartridge> implements iMAchine {
 			if (writer != null)
 				writer.close();
 		}
+		
+		
+		
+		
 		//System.out.println(pagesMap.get(pageNumber).getText());
 	}
 

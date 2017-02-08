@@ -118,13 +118,14 @@ public class Printer<T extends iCartridge> implements iMAchine {
 			writer = new PrintWriter(new FileWriter ("C:\\temp\\outputpage.text"));
 			
 			writer.println(pagesMap.get(pageNumber).getText());
-		} catch (IOException e) {
+		} catch (IOException) {
 			e.printStackTrace();
 		}
-		finally {
-			if (writer != null)
-				writer.close();
-		}
+		
+		
+		
+		
+		
 		//System.out.println(pagesMap.get(pageNumber).getText());
 	}
 

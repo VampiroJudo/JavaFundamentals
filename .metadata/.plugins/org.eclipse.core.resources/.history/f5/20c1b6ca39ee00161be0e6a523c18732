@@ -121,10 +121,11 @@ public class Printer<T extends iCartridge> implements iMAchine {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		finally {
-			if (writer != null)
-				writer.close();
-		}
+		
+		
+		
+		
+		
 		//System.out.println(pagesMap.get(pageNumber).getText());
 	}
 

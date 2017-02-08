@@ -1,8 +1,6 @@
 package printing;
 
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -79,33 +77,20 @@ public class Printer<T extends iCartridge> implements iMAchine {
 
 	private String getTextFromFile() {
 		FileReader reader = null;
-		BufferedReader bReader = null;
-		String allText = "";
 		try {
 			reader = new FileReader("C:\\temp\\test.txt");
-			bReader = new BufferedReader(reader);
-			
-			String line;
-			while(( line = bReader.readLine() ) !=null){
-				allText += line + "\n";
-			}
-			return allText;
-			
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		
 			e.printStackTrace();
 		}
-		
- 		finally {
-			if(bReader != null) 
+		finally {
+			if(reader != null) 
 				try {
 					reader.close();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 		}
-		return "";
 		
 	}
 

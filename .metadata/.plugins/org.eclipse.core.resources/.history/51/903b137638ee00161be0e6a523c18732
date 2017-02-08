@@ -92,12 +92,10 @@ public class Printer<T extends iCartridge> implements iMAchine {
 			return allText;
 			
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		
 			e.printStackTrace();
 		}
-		
- 		finally {
+		finally {
 			if(bReader != null) 
 				try {
 					reader.close();
@@ -105,7 +103,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 					e.printStackTrace();
 				}
 		}
-		return "";
 		
 	}
 

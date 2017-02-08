@@ -96,7 +96,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
  		finally {
 			if(bReader != null) 
 				try {

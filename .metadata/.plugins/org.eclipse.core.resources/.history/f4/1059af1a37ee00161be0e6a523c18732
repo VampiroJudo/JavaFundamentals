@@ -80,24 +80,22 @@ public class Printer<T extends iCartridge> implements iMAchine {
 	private String getTextFromFile() {
 		FileReader reader = null;
 		BufferedReader bReader = null;
-		String allText = "";
+		String allText;
 		try {
 			reader = new FileReader("C:\\temp\\test.txt");
 			bReader = new BufferedReader(reader);
 			
 			String line;
-			while(( line = bReader.readLine() ) !=null){
+			while((line = bReader.readLine() ) !=null){
 				allText += line + "\n";
 			}
 			return allText;
 			
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		
 			e.printStackTrace();
 		}
-		
- 		finally {
+		finally {
 			if(bReader != null) 
 				try {
 					reader.close();
@@ -105,7 +103,6 @@ public class Printer<T extends iCartridge> implements iMAchine {
 					e.printStackTrace();
 				}
 		}
-		return "";
 		
 	}
 

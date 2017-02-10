@@ -20,8 +20,6 @@ public enum ColorCartridge implements iCartridge {
 //		return "";
 //	}
 	
-
-	
 	@Override
 	public String toString() {
 		

@@ -4,10 +4,6 @@ package greetings.hello;
 //import printing.Machine;
 import printing.Printer;
 import printing.PrintingDevice;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 import printing.ColorCartridge;
 
 //import java.io.IOException;
@@ -28,7 +24,7 @@ import printing.ColorCartridge;
 public class HelloWorld {
 
 
-	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException  {
+	public static void main(String[] args)  {
 		
 		
 		
@@ -37,13 +33,16 @@ public class HelloWorld {
 	
 	printer.loadPaper(10);
 	
-	PrintingDevice annotation = printer.getClass().getAnnotation(PrintingDevice.class);
+	printer.getClass().getAnnotation(PrintingDevice.class);
 	
-	Method printMethod = printer.getClass().getMethod(annotation.defaultPrintMethod(), int.class);
 	
-	printMethod.invoke(printer, annotation.defaultNumberOfCopies());
 	
 	printer.outputPage(4);
+	
+	
+	
+	
+	
 	
 //	Path path = Paths.get("C:\\temp\\newFile.txt");
 	

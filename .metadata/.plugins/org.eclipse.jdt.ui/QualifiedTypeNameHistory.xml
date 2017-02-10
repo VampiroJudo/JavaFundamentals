@@ -21,4 +21,7 @@
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="java.nio.file.Path"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="printing.PrintingDevice"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package greetings.hello;
-
-public interface IMAchine {
-
-}

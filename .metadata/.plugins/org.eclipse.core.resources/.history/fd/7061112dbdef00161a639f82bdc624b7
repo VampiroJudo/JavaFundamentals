@@ -7,8 +7,6 @@ import printing.PrintingDevice;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 import printing.ColorCartridge;
 import printing.ContinuousPrinter;
@@ -33,24 +31,9 @@ public class HelloWorld {
 
 	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException  {
 	
-		
-		
-// Thread example using executors
 
-//		ContinuousPrinter cp = new ContinuousPrinter();
-//		
-//		ExecutorService executer = Executors.newFixedThreadPool(3);
-//		executer.submit(cp);
-//		executer.submit(cp);
-//		executer.submit(cp);
-//		executer.submit(cp);
-//		executer.submit(cp);
-//		executer.submit(cp);
-//		executer.shutdown();
-//		
-//		for(int i = 0; i <100; i++)
-//		System.out.println("Main Thread" + i);
-//		
+		
+		
 		
 		
 		
@@ -65,7 +48,7 @@ public class HelloWorld {
 //		
 		
 		
-// Thread example using inheritance
+// Thread example using inheritence
 		
 //		ContinuousPrinter cp = new ContinuousPrinter();
 //		cp.start();

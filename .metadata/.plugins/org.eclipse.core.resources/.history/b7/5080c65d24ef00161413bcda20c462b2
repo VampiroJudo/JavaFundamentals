@@ -29,16 +29,7 @@ public class HelloWorld {
 		
 	Printer<ColorCartridge> printer = new Printer<ColorCartridge>(true, "MY PRINTER", ColorCartridge.RED);
 	
-	
-	printer.printColors();
-	
-	
-	
-	
-	
-	
-	
-//	Path path = Paths.get("C:\\temp\\newFile.txt");
+	Path path = Paths.get("C:\\temp\\newFile.txt");
 	
 	//Creating a File
 //	try {

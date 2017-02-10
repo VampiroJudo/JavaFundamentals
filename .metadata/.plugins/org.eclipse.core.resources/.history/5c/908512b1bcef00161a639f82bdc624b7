@@ -30,34 +30,19 @@ public class HelloWorld {
 
 
 	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException  {
-	
 		
-// Thread example using a runnable interface
+		
 		ContinuousPrinter cp = new ContinuousPrinter();
-		Thread thread = new Thread(cp);
-		thread.start();
+		cp.start();
 		
-		for(int i = 0; i <100; i++)
-			System.out.println("Main Thread" + i);
-		
+		ContinuousPrinter cp2 = new ContinuousPrinter();
+		cp2.start();
 		
 		
-		
-		
-		
-// Thread example using inheritence
-		
-//		ContinuousPrinter cp = new ContinuousPrinter();
-//		cp.start();
-//		
-//		ContinuousPrinter cp2 = new ContinuousPrinter();
-//		cp2.start();
-//		
-//		
-//		for(int i = 0; i < 100; i++)
-//			System.out.println("Main thread " + i);
-//	
-//	
+		for(int i = 0; i < 100; i++)
+			System.out.println("Main thread " + i);
+	
+	
 	
 	
 	

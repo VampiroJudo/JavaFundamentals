@@ -32,7 +32,7 @@ public class HelloWorld {
 	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException  {
 	
 		
-// Thread example using a runnable interface
+// Thread example using an interface
 		ContinuousPrinter cp = new ContinuousPrinter();
 		Thread thread = new Thread(cp);
 		thread.start();

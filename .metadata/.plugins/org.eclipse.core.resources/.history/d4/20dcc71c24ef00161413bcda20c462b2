@@ -3,7 +3,6 @@ package greetings.hello;
 //import printing.iMAchine;
 //import printing.Machine;
 import printing.Printer;
-import printing.ColorCartridge;
 
 //import java.io.IOException;
 //import java.nio.file.Files;
@@ -19,6 +18,7 @@ import printing.ColorCartridge;
 //import java.util.Queue;
 //import java.util.Set;
 
+import printing.ColorCartridge;
 
 public class HelloWorld {
 

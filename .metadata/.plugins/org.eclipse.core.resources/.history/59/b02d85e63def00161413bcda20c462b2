@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-@PrintingDevice(defaultPrintMethod ="print", defaultNumberOfCopies = 5)
+@PrintingDevice(defaultPrintMethod ="print", defaultNumberOfCopies = 5);
 public class Printer<T extends iCartridge> implements iMAchine {
 	// Bounded example
 	// public class Printer<T implements iCartridge> implements iMAchine

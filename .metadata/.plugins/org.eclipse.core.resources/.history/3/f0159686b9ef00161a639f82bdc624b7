@@ -1,0 +1,14 @@
+package greetings.hello;
+
+public class ContinuousPrinter extends Thread {
+	
+	private Printer printer = new Printer<iCartridge>(true, "iPrint", cartridge)
+
+	@Override
+	public void run() {
+		
+		super.run();
+	}
+	@Override
+
+}

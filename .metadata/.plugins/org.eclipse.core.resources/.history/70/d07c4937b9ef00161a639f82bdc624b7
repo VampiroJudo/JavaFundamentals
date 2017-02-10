@@ -1,0 +1,6 @@
+package greetings.hello;
+
+public class ContinuousPrinter extends Thread {
+	@Override
+
+}

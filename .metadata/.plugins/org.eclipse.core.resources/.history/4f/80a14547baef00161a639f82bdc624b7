@@ -40,9 +40,9 @@ public class Printer<T extends iCartridge> implements iMAchine {
 
 	public <U extends iCartridge> void printUsingCartridge(U cartridge, String message) {
 
-		//System.out.println(cartridge.toString());
+		System.out.println(cartridge.toString());
 		System.out.println(message);
-		//System.out.println(cartridge.toString());
+		System.out.println(cartridge.toString());
 	}
 
 	public void print(int copies) {

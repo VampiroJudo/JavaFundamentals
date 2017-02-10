@@ -38,14 +38,11 @@ public class Printer<T extends iCartridge> implements iMAchine {
 
 	}
 
-	public synchronized <U extends iCartridge> void printUsingCartridge(U cartridge, String message) {
-		
-		System.out.println("Entered" + Thread.currentThread().getId());
+	public <U extends iCartridge> void printUsingCartridge(U cartridge, String message) {
+
 		//System.out.println(cartridge.toString());
 		System.out.println(message);
 		//System.out.println(cartridge.toString());
-		System.out.println("Exited" + Thread.currentThread().getId());
-
 	}
 
 	public void print(int copies) {

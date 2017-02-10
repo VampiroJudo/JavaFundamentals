@@ -13,13 +13,6 @@ public enum ColorCartridge implements iCartridge {
 		this.colorText = colorText;
 	}
 	
-//Example of Override annotation
-	
-//	@Override
-//	public String notOverriding() {
-//		return "";
-//	}
-	
 	@Override
 	public String toString() {
 		

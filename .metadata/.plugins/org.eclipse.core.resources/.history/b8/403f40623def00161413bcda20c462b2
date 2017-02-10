@@ -19,7 +19,7 @@ public class Printer<T extends iCartridge> implements iMAchine {
 	private PaperTray paperTray = new PaperTray();
 	private Machine machine;
 	private T cartridge;
-//	private List<Page> pages = new ArrayList<Page>();
+	private List<Page> pages = new ArrayList<Page>();
 	private Map<Integer, Page> pagesMap = new HashMap<Integer, Page>();
 
 	public Printer(boolean isOn, String modelNumber, T cartridge) {

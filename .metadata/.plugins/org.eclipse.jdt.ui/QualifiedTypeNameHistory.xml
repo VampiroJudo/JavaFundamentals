@@ -24,4 +24,10 @@
 <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="printing.PrintingDevice"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="printing.Printer"/>
+<fullyQualifiedTypeName name="printing.ColorCartridge"/>
+<fullyQualifiedTypeName name="printing.ContinuousPrinter"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
